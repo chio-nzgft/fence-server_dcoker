@@ -1,5 +1,5 @@
 FROM centos:centos7
-RUN yum install -y net-tools fence-virt fence-virtd fence-virtd-multicast fence-virtd-libvirtd
+RUN yum install -y net-tools fence-virt fence-virtd fence-virtd-libvirt fence-virtd-multicast fence-virtd-serial
 RUN yum clean all
 ADD /helper_scripts /usr/sbin
 RUN mkdir -p /etc/cluster
