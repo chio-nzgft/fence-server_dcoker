@@ -36,7 +36,6 @@ ac76d8367de04b4734305582199e0047d786c5f8fe6a71074814337f7cd84533
 [root@ac76d8367de0 /]# ps -ef
 UID         PID   PPID  C STIME TTY          TIME CMD
 root          1      0  0 03:27 ?        00:00:00 /bin/bash /usr/sbin/launch.sh
-root         14      1  0 03:27 ?        00:00:00 /usr/sbin/fence_virtd -w
 root         17      1  0 03:27 ?        00:00:00 sleep 5
 root         18      0  0 03:27 ?        00:00:00 bash
 root         33     18  0 03:27 ?        00:00:00 ps -ef
