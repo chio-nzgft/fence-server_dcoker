@@ -7,7 +7,7 @@ Creating a docker container image is trivial.
 
 ```
 # git clone https://github.com/chio-nzgft/fence-server_dcoker.git
-# cd pacemaker_docker
+# cd fence-server_dcoker
 # docker build -t fence-server
 
 ```
