@@ -6,7 +6,7 @@ Docker containerization of fence-server
 Creating a docker container image is trivial. 
 
 ```
-# git clone https://github.com/echochio-tw/pacemaker_docker.git
+# git clone https://github.com/chio-nzgft/fence-server_dcoker.git
 # cd pacemaker_docker
 # docker build -t fence-server
 
